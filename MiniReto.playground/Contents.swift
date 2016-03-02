@@ -5,16 +5,21 @@ import UIKit
 //Mini Reto!
 
 for i in 0...100 {
-    if i % 5 == 0 && i != 0 {
+    
+    //Validación de números divisibles entre cinco.
+    if i % 5 == 0{
         print ("\(i) Bingo!!!")
     }
     
-    if i % 2 == 0 && i != 0 {
+    //Validación de números pares e impares.
+    if i % 2 == 0{
         print("\(i) par")
-    }else if i != 0 {
+    }
+    else{
         print("\(i) impar")
     }
     
+    //Validación de números entre el rango 30 y 40.
     if i >= 30 && i <= 40 {
         print("\(i) Viva Swift!!!")
     }
